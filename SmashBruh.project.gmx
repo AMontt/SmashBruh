@@ -9,10 +9,17 @@
     <sprites name="Sebo">
       <sprites name="Stand">
         <sprite>sprites\sprite0</sprite>
+        <sprite>sprites\Base</sprite>
+        <sprite>sprites\sprite6</sprite>
         <sprite>sprites\StandGif</sprite>
+        <sprite>sprites\sprite4</sprite>
       </sprites>
       <sprites name="Movement">
         <sprite>sprites\Run</sprite>
+        <sprite>sprites\Run_Atk</sprite>
+        <sprite>sprites\Jump</sprite>
+        <sprite>sprites\Attack</sprite>
+        <sprite>sprites\sprite9</sprite>
       </sprites>
     </sprites>
     <sprites name="Block">
@@ -21,12 +28,11 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\PlayerSebo</object>
     <object>objects\BlockGrass</object>
+    <object>objects\Atk_mask</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test</room>
