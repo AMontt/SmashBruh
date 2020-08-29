@@ -16,19 +16,25 @@
       </sprites>
       <sprites name="Movement">
         <sprite>sprites\Run</sprite>
+        <sprite>sprites\Run_Atk_2</sprite>
         <sprite>sprites\Run_Atk</sprite>
         <sprite>sprites\Jump</sprite>
+        <sprite>sprites\Attack_base</sprite>
         <sprite>sprites\Attack</sprite>
         <sprite>sprites\sprite9</sprite>
+        <sprite>sprites\atk_base</sprite>
+        <sprite>sprites\Attack_Side</sprite>
       </sprites>
     </sprites>
     <sprites name="Block">
       <sprite>sprites\sprite5</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\PlayerSebo</object>
     <object>objects\BlockGrass</object>
